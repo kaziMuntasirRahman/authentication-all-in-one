@@ -10,7 +10,6 @@ const Register = () => {
   const [loggedError, setLoggedError] = useState("");
   const [password2, setPassword2] = useState("");
   const [password, setPassword] = useState("");
-  // const [formInfo, setFormInfo] = useState(false);
   const googleProvider = new GoogleAuthProvider();
   const twitterProvider = new TwitterAuthProvider();
   const githubProvider = new GithubAuthProvider();
@@ -121,17 +120,17 @@ const Register = () => {
             <div />
           </button>
           <button onClick={handleGithubSignIn} className="btn bg-[#2b3137] border-transparent">
-            <img src="/public/github.png" alt="" />
+            <img src="/github.png" alt="" />
             <p>Login with Github</p>
             <div />
           </button>
           <button onClick={handleFacebookSignIn} className="btn bg-[#3b5998] border border-transparent">
-            <img src="/public/facebook.webp" alt="" />
+            <img src="/facebook.webp" alt="" />
             <p>Login with Facebook</p>
             <div />
           </button>
           <button onClick={handleTwitterSignIn} className="btn bg-[#1DA1F2] border border-transparent">
-            <img src="/public/twitter.png" alt="" />
+            <img src="/twitter.png" alt="" />
             <p>Login with Twitter</p>
             <div />
           </button>
