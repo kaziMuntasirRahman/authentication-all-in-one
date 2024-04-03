@@ -91,22 +91,22 @@ const Login = () => {
           {/* facebook,google,github,twitter section */}
           <div className="flex flex-col gap-3" id="btn-container">
             <button onClick={handleGoogleSignIn} className="btn bg-transparent border !text-black !border-black">
-              <img src="/public/google.webp" />
+              <img src="/google.webp" />
               <p className="text-center">Login with Google</p>
               <div />
             </button>
             <button onClick={handleGithubSignIn} className="btn bg-[#2b3137] border-transparent">
-              <img src="/public/github.png" alt="" />
+              <img src="/github.png" alt="" />
               <p>Login with Github</p>
               <div />
             </button>
             <button onClick={handleFacebookSignIn} className="btn bg-[#3b5998] border border-transparent">
-              <img src="/public/facebook.webp" alt="" />
+              <img src="/facebook.webp" alt="" />
               <p>Login with Facebook</p>
               <div />
             </button>
             <button onClick={handleTwitterSignIn} className="btn bg-[#1DA1F2] border border-transparent">
-              <img src="/public/twitter.png" alt="" />
+              <img src="/twitter.png" alt="" />
               <p>Login with Twitter</p>
               <div />
             </button>
