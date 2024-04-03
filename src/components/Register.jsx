@@ -115,7 +115,7 @@ const Register = () => {
         {/* facebook,google,github,twitter section */}
         <div className="flex flex-col gap-3" id="btn-container">
           <button onClick={handleGoogleSignIn} className="btn bg-transparent border !text-black !border-black">
-            <img src="/public/google.webp" />
+            <img src="/google.webp" />
             <p className="text-center">Login with Google</p>
             <div />
           </button>
