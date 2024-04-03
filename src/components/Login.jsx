@@ -78,7 +78,7 @@ const Login = () => {
               }
             </div>
             <p className="text-base text-center outline-none text-blue-700 underline">Forget Password?</p>
-            <button className="btn text-white text-lg btn-disabled" type="submit">Login</button>
+            <button className="btn text-white text-lg" type="submit">Login</button>
           </form>
           <p className='text-red-600'>{loggedError}</p>
           <p className="text-center text-black">Don&apos;t have an account? <Link to={'/register'} className="text-blue-700 underline">Register</Link></p>
