@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const navLinks = ['Home', 'Gallery', 'Sites', 'Locate', 'Contact']
+  const navLinks = ['Home', 'Gallery', 'Sites', 'Locate', 'About']
 
   return (
     <div>
